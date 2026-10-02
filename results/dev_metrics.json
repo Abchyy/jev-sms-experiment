@@ -1,0 +1,37 @@
+{
+  "classification": {
+    "n": 20,
+    "ham_n": 10,
+    "spam_n": 10,
+    "accuracy": 0.95,
+    "balanced_accuracy": 0.95,
+    "spam_precision": 1.0,
+    "spam_recall": 0.9,
+    "spam_f1": 0.9473684210526315,
+    "brier_score": 0.04305,
+    "tn": 10,
+    "fp": 0,
+    "fn": 1,
+    "tp": 9,
+    "ham_as_spam_count": 0,
+    "ham_as_spam_rate": 0.0,
+    "spam_as_ham_count": 1,
+    "spam_as_ham_rate": 0.1
+  },
+  "workflow": {
+    "n": 20,
+    "auto_n": 18,
+    "block_n": 8,
+    "release_n": 10,
+    "review_n": 2,
+    "automation_coverage": 0.9,
+    "review_rate": 0.1,
+    "auto_accuracy": 1.0,
+    "false_block_count": 0,
+    "missed_block_count": 0,
+    "false_block_rate_within_block": 0.0,
+    "missed_block_rate_within_release": 0.0
+  },
+  "failed": 0,
+  "unattempted": 0
+}

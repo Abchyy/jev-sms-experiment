@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-10-01T13:00:17.131512+00:00",
+  "source_url": "https://www.kaggle.com/api/v1/datasets/download/uciml/sms-spam-collection-dataset",
+  "dataset_page": "https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset",
+  "original_source": "https://archive.ics.uci.edu/dataset/228/sms+spam+collection",
+  "archive_sha256": "3e05b8e6e1e8fc9aef3ca69399a1bf3849a22084c8401d5d5d592e6c9a0e422b",
+  "source_file_sha256": "440e6ea9fa825578abfdd7b7932ef8393d72ef86c0c33f64676705ce40b1dfc2",
+  "archive_bytes": 215934,
+  "fields": {
+    "original": [
+      "v1",
+      "v2",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4"
+    ],
+    "used": {
+      "v1": "label",
+      "v2": "text"
+    },
+    "unused": [
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4"
+    ],
+    "encoding": "latin-1",
+    "source_file": "spam.csv"
+  },
+  "cleaning": {
+    "raw_rows": 5572,
+    "missing_rows": 0,
+    "empty_text_rows": 0,
+    "unknown_label_rows": 0,
+    "invalid_rows_removed": 0,
+    "conflict_text_groups": 0,
+    "conflict_rows_removed": 0,
+    "duplicate_rows_removed": 403,
+    "clean_rows": 5169,
+    "class_counts": {
+      "ham": 4516,
+      "spam": 653
+    },
+    "raw_class_counts": {
+      "ham": 4825,
+      "spam": 747
+    },
+    "class_proportions": {
+      "ham": 0.873669955503966,
+      "spam": 0.12633004449603405
+    }
+  },
+  "exact_text_policy": "Compare decoded text exactly; no trimming, lowercasing or Unicode normalization. Strip only to detect emptiness. Keep first consistent duplicate; remove whole conflicting group.",
+  "seed": 42,
+  "rng": "numpy.default_rng/PCG64",
+  "split_algorithm": "For ham then spam: seeded permutation, first 10 dev, next 50 test, remainder train; independently shuffle each resulting split with same RNG stream.",
+  "splits": {
+    "dev": {
+      "n": 20,
+      "class_counts": {
+        "ham": 10,
+        "spam": 10
+      },
+      "file_sha256": "78747e2842e0f34e37a90e8317eae7b04686cbbd1b3543ae214f1d0c97a82113",
+      "inputs_sha256": "1a563a2d986099afbae186f9b6da5b9e4e51ff8e59f4d2fd8d9903342aa4a069"
+    },
+    "test": {
+      "n": 100,
+      "class_counts": {
+        "ham": 50,
+        "spam": 50
+      },
+      "file_sha256": "d9aa60abe2697c1b4c13c496d7d2b371bf076d32d58f14cda471c6f60ec552d3",
+      "inputs_sha256": "02b02c772d683947147a64465ce4d48dfcbd913cae03cc16f8d6b91a7a1a1e53"
+    },
+    "train": {
+      "n": 5049,
+      "class_counts": {
+        "ham": 4456,
+        "spam": 593
+      },
+      "file_sha256": "6ff08d969acc97760494f2225fe3cfe34f5276a35eafa309bf958544e8f30fa0",
+      "inputs_sha256": "87523d559dc36fd0da73e5fdf81b7f625c85646610cc88f97f4b4892d9649691"
+    }
+  }
+}

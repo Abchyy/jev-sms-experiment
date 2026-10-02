@@ -1,0 +1,3 @@
+# Preserve the downloaded source bytes, encoding and CRLF line endings exactly.
+data/spam.csv -text -diff
+data/kaggle.zip -text

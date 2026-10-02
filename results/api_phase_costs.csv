@@ -1,0 +1,4 @@
+phase,requests,known_cost_usd,valid_responses
+smoke,1,2.058e-05,1
+dev,20,0.000422184,20
+test,100,0.002130114,100

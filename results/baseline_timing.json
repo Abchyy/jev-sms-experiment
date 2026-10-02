@@ -1,0 +1,28 @@
+{
+  "trained_utc": "2026-10-01T13:00:36.009380+00:00",
+  "train_n": 5049,
+  "train_s": 0.049631958005193155,
+  "predict_batch_100_s": 0.0012369999967631884,
+  "predict_single_p50_s": 9.560450052958913e-05,
+  "predict_single_p95_s": 0.00011247675101913046,
+  "vocabulary_n": 12005,
+  "config": {
+    "tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "sublinear_tf": true
+    },
+    "logistic_regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "solver": "liblinear",
+      "max_iter": 1000,
+      "random_state": 42
+    },
+    "decision_threshold": 0.5
+  },
+  "train_sha256": "6ff08d969acc97760494f2225fe3cfe34f5276a35eafa309bf958544e8f30fa0"
+}

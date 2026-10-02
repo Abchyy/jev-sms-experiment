@@ -1,0 +1,9 @@
+{
+  "split": "smoke",
+  "expected": 1,
+  "records": 1,
+  "valid": 1,
+  "failed": 0,
+  "unattempted": 0,
+  "updated_utc": "2026-10-01T13:11:23.958661+00:00"
+}

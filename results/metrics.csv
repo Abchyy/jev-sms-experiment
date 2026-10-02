@@ -1,0 +1,4 @@
+model_subset,n,ham_n,spam_n,accuracy,balanced_accuracy,spam_precision,spam_recall,spam_f1,brier_score,tn,fp,fn,tp,ham_as_spam_count,ham_as_spam_rate,spam_as_ham_count,spam_as_ham_rate
+jev_valid,100,50,50,0.96,0.96,1.0,0.92,0.9583333333333334,0.029149,50,0,4,46,0,0.0,4,0.08
+baseline_same_valid,100,50,50,0.86,0.86,1.0,0.72,0.8372093023255814,0.09724705594456655,50,0,14,36,0,0.0,14,0.28
+baseline_all_test,100,50,50,0.86,0.86,1.0,0.72,0.8372093023255814,0.09724705594456655,50,0,14,36,0,0.0,14,0.28

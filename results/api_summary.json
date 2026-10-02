@@ -1,0 +1,21 @@
+{
+  "test_n": 100,
+  "test_attempted": 100,
+  "test_valid": 100,
+  "test_failed": 0,
+  "test_unattempted": 0,
+  "test_success_rate_all": 1.0,
+  "test_success_rate_attempted": 1.0,
+  "latency_p50_s": 0.28669335399899865,
+  "latency_p95_s": 0.39192268095393956,
+  "latency_population": "All completed test attempts, including failures; original network timings, not cache reads",
+  "total_requests": 121,
+  "known_cost_usd_all": 0.002572878,
+  "known_cost_usd_test": 0.002130114,
+  "unknown_cost_attempts": 0,
+  "served_models": [
+    "typesafe/jev-1.13-20260917"
+  ],
+  "choice_argmax_disagreements": 0,
+  "stop": null
+}

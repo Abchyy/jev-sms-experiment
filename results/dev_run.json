@@ -1,0 +1,9 @@
+{
+  "split": "dev",
+  "expected": 20,
+  "records": 20,
+  "valid": 20,
+  "failed": 0,
+  "unattempted": 0,
+  "updated_utc": "2026-10-01T13:11:23.971335+00:00"
+}

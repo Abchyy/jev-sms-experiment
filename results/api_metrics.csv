@@ -1,0 +1,2 @@
+test_n,test_attempted,test_valid,test_failed,test_unattempted,test_success_rate_all,test_success_rate_attempted,latency_p50_s,latency_p95_s,latency_population,total_requests,known_cost_usd_all,known_cost_usd_test,unknown_cost_attempts,served_models,choice_argmax_disagreements,stop
+100,100,100,0,0,1.0,1.0,0.28669335399899865,0.39192268095393956,"All completed test attempts, including failures; original network timings, not cache reads",121,0.002572878,0.002130114,0,typesafe/jev-1.13-20260917,0,null

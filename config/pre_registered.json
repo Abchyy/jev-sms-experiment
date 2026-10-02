@@ -1,0 +1,35 @@
+{
+  "registered_utc": "2026-10-01T13:00:17.133338+00:00",
+  "config_sha256": "a7725f3034df7d60ae3ce2acd4f1a382c7ddb29875d895922dbcb30e0cb92058",
+  "source_file_sha256": "440e6ea9fa825578abfdd7b7932ef8393d72ef86c0c33f64676705ce40b1dfc2",
+  "split_hashes": {
+    "dev": {
+      "n": 20,
+      "class_counts": {
+        "ham": 10,
+        "spam": 10
+      },
+      "file_sha256": "78747e2842e0f34e37a90e8317eae7b04686cbbd1b3543ae214f1d0c97a82113",
+      "inputs_sha256": "1a563a2d986099afbae186f9b6da5b9e4e51ff8e59f4d2fd8d9903342aa4a069"
+    },
+    "test": {
+      "n": 100,
+      "class_counts": {
+        "ham": 50,
+        "spam": 50
+      },
+      "file_sha256": "d9aa60abe2697c1b4c13c496d7d2b371bf076d32d58f14cda471c6f60ec552d3",
+      "inputs_sha256": "02b02c772d683947147a64465ce4d48dfcbd913cae03cc16f8d6b91a7a1a1e53"
+    },
+    "train": {
+      "n": 5049,
+      "class_counts": {
+        "ham": 4456,
+        "spam": 593
+      },
+      "file_sha256": "6ff08d969acc97760494f2225fe3cfe34f5276a35eafa309bf958544e8f30fa0",
+      "inputs_sha256": "87523d559dc36fd0da73e5fdf81b7f625c85646610cc88f97f4b4892d9649691"
+    }
+  },
+  "plan": "No test-informed changes. Fixed thresholds 0.10/0.90. At most one dev-only criteria revision. Report full and common valid subset baselines. No human accuracy assumed."
+}

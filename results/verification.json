@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-10-01T13:11:23.988274+00:00",
+  "status": "passed",
+  "unit_tests": 7,
+  "real_request_count": 121,
+  "request_response_pairs": 121,
+  "test_n": 100,
+  "freeze_before_test": true,
+  "metrics_independently_recomputed": true,
+  "baseline_saved_model_matches_predictions": true,
+  "cost_usd": 0.0025728780000000015,
+  "cache_replay_new_requests": 0,
+  "secret_scan": "exact secret absent from all deliverable files; .env was mode 600 and is now removed",
+  "known_source_caveat": "One original test text contains ROMCAPspam; strict absence of text-internal answer cues cannot be certified. No post-hoc deletion or metric change."
+}

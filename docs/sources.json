@@ -1,0 +1,47 @@
+{
+  "verified_utc": "2026-10-01T13:03:25.663332+00:00",
+  "sources": [
+    {
+      "local_file": "docs/jev-tutorial.md",
+      "url": "https://openrouter.ai/docs/guides/community/jev-tutorial",
+      "sha256": "bb31782df5d15807dd16a7c422c04e45757bc2bee0f3394dc24102940778c31b"
+    },
+    {
+      "local_file": "docs/decisions-api.md",
+      "url": "https://openrouter.ai/docs/api/api-reference/alphadecisions/submit-a-decisions-request",
+      "sha256": "4d91aa4a23750564e833fac77ba0293b3cd458c73b134525f7f905a97ab62325"
+    },
+    {
+      "local_file": "docs/model.html",
+      "url": "https://openrouter.ai/typesafe/jev-1.13",
+      "sha256": "bc1734b1c4a6d095b004b0a03fbe2dc30212738263755a0662487b6c8916c397"
+    }
+  ],
+  "verified_contract": {
+    "method": "POST",
+    "endpoint": "https://openrouter.ai/api/alpha/decisions",
+    "body_fields": [
+      "model",
+      "state",
+      "questions"
+    ],
+    "choice_answer": [
+      "type",
+      "choice",
+      "probabilities"
+    ],
+    "cost_field": "usage.cost",
+    "input_usd_per_million": 0.042,
+    "output_usd_per_million": 0,
+    "max_context_tokens": 32000
+  },
+  "dataset_extra_columns": {
+    "nonempty_counts": {
+      "Unnamed: 2": 50,
+      "Unnamed: 3": 12,
+      "Unnamed: 4": 6
+    },
+    "rows_with_any_extra_column": 50,
+    "policy": "Use canonical v1/v2 only. Additional fields retained in raw file, not concatenated. Potential serialization artifacts/truncated text are a limitation."
+  }
+}

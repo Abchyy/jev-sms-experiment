@@ -1,0 +1,19 @@
+model,sample_id,label,prediction,p_spam,predicted_class_probability,workflow,text
+baseline_all_test,b78ecc0cfdded3c3,spam,ham,0.0786400182196815,0.9213599817803185,release,ROMCAPspam Everyone around should be responding well to your presence since you are so warm and outgoing. You are bringing in a real breath of sunshine.
+baseline_all_test,b44c5b43efd37886,spam,ham,0.0862738269516386,0.9137261730483615,release,Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XXX SLO(4msgs)
+jev_valid,c2e92231c2a17311,spam,ham,0.18,0.8200000000000001,review,"Thanks for your Ringtone Order, Reference T91. You will be charged GBP 4 per week. You can unsubscribe at anytime by calling customer services on 09057039994"
+baseline_all_test,04e9e55d253c9b19,spam,ham,0.2248323806936829,0.7751676193063171,review,Bought one ringtone and now getting texts costing 3 pound offering more tones etc
+jev_valid,7f0f344f17b6ba5b,spam,ham,0.23,0.77,review,**FREE MESSAGE**Thanks for using the Auction Subscription Service. 18 . 150p/MSGRCVD 2 Skip an Auction txt OUT. 2 Unsubscribe txt STOP CustomerCare 08718726270
+jev_valid,fc8f15af8a87f58b,spam,ham,0.23,0.77,review,A link to your picture has been sent. You can also use http://alto18.co.uk/wave/wave.asp?o=44345
+baseline_all_test,4dd64aa7e371f02f,spam,ham,0.2487680220680977,0.7512319779319023,review,88066 FROM 88066 LOST 3POUND HELP
+baseline_all_test,4c99448610bcbfa8,spam,ham,0.2647304595331686,0.7352695404668315,review,You won't believe it but it's true. It's Incredible Txts! Reply G now to learn truly amazing things that will blow your mind. From O2FWD only 18p/txt
+jev_valid,b78ecc0cfdded3c3,spam,ham,0.28,0.72,review,ROMCAPspam Everyone around should be responding well to your presence since you are so warm and outgoing. You are bringing in a real breath of sunshine.
+baseline_all_test,01562055436f6d79,spam,ham,0.3468596099483819,0.6531403900516182,review,1000's of girls many local 2 u who r virgins 2 this & r ready 2 4fil ur every sexual need. Can u 4fil theirs? text CUTE to 69911(å£1.50p. m)
+baseline_all_test,de97edf86373dffc,spam,ham,0.3739539815729485,0.6260460184270515,review,How about getting in touch with folks waiting for company? Just txt back your NAME and AGE to opt in! Enjoy the community (150p/SMS)
+baseline_all_test,c2e92231c2a17311,spam,ham,0.4418797353386945,0.5581202646613055,review,"Thanks for your Ringtone Order, Reference T91. You will be charged GBP 4 per week. You can unsubscribe at anytime by calling customer services on 09057039994"
+baseline_all_test,fc8f15af8a87f58b,spam,ham,0.4497826062801309,0.5502173937198691,review,A link to your picture has been sent. You can also use http://alto18.co.uk/wave/wave.asp?o=44345
+baseline_all_test,77edcd2ac3ff71e1,spam,ham,0.4513493190015439,0.5486506809984562,review,Send a logo 2 ur lover - 2 names joined by a heart. Txt LOVE NAME1 NAME2 MOBNO eg LOVE ADAM EVE 07123456789 to 87077 Yahoo! POBox36504W45WQ TxtNO 4 no ads 150p.
+baseline_all_test,07aeaef289703abe,spam,ham,0.454142938667163,0.5458570613328371,review,"TheMob>Hit the link to get a premium Pink Panther game, the new no. 1 from Sugababes, a crazy Zebra animation or a badass Hoody wallpaper-all 4 FREE!"
+baseline_all_test,34e745c2aeac4a0b,spam,ham,0.4672748331436316,0.5327251668563684,review,Good Luck! Draw takes place 28th Feb 06. Good Luck! For removal send STOP to 87239 customer services 08708034412
+baseline_all_test,a9ac34911bebfd61,spam,ham,0.471723880232719,0.528276119767281,review,Hey I am really horny want to chat or see me naked text hot to 69698 text charged at 150pm to unsubscribe text stop 69698
+baseline_all_test,8700098e97cf86f4,spam,ham,0.4875355478862576,0.5124644521137425,review,it to 80488. Your 500 free text messages are valid until 31 December 2005.

@@ -1,0 +1,27 @@
+{
+  "audited_utc": "2026-10-01T13:05:25.765451+00:00",
+  "type": "post_run_source_quality_observation; no sample removal or metric changes",
+  "pattern": "ROMCAPspam|ROMCAPham",
+  "counts": {
+    "clean": {
+      "potential_label_marker_count": 1,
+      "sample_ids": [
+        "b78ecc0cfdded3c3"
+      ]
+    },
+    "dev": {
+      "potential_label_marker_count": 0,
+      "sample_ids": []
+    },
+    "test": {
+      "potential_label_marker_count": 1,
+      "sample_ids": [
+        "b78ecc0cfdded3c3"
+      ]
+    },
+    "train": {
+      "potential_label_marker_count": 0,
+      "sample_ids": []
+    }
+  }
+}
